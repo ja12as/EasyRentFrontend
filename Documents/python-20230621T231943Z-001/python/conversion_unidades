@@ -1,0 +1,8 @@
+from math import *
+from datetime import date
+hoy = date.today()
+print("hoy es el dia: " ,hoy)
+conversion= int (input('elija la conversion de unidades\n','1: Millas a Kilómetros\n', '2: Kilómetros a Millas'))
+if conversion == 1:
+numero1= int (input("digite numero a convertir: "))
+
