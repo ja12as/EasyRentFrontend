@@ -1,0 +1,46 @@
+.container-img {
+    display:flex;
+    justify-content: space-between;
+}
+.title{
+    /* Establece el margen inferior */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+} 
+.img{
+    width:95px; 
+    height:100px;
+    align-self: flex-end; /* Se alinea al borde inferior del contenedor flexible */
+}
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.form-signin {
+    width: 100%;/* Establece el ancho del formulario en 100%*/
+    margin-left: auto;/* Centra horizontalmente el formulario dentro de su contenedor */
+    margin-right: auto;    
+    display: flex;/* Convierte el contenedor en un contenedor flexible */
+    align-items: center;/* Centra verticalmente los elementos hijos del contenedor */    
+    justify-content: center;/* Centra horizontalmente los elementos hijos del contenedor */    
+    height: 100vh;/* Establece la altura del formulario para que ocupe el 100% de la altura del viewport */
+}
+  
+
+.formulario{
+    background-color: rgba(255, 250, 240, 1);
+    width: 30%;/* Establece el ancho del formulario en 200 píxeles */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    padding: 5%;
+    align-items: center;/* Centra verticalmente los elementos hijos del contenedor */
+    justify-content: center;/* Centra horizontalmente los elementos hijos del contenedor */
+    height: 100vh;/* Establece la altura del formulario para que ocupe el 100% de la altura del viewport */
+} 
+.btnclick{
+    background-color: rgba(0, 206, 209, 1);
+}
+
