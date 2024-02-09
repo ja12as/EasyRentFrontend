@@ -1,9 +1,10 @@
 import React from 'react'
+import { Signup } from '../componentes/Signup'
 
 export const SignUpPage = () => {
   return (
     <>
-    <h1> estmaos en SignUpPage</h1>
+    <Signup/>
     </>
   )
 }
