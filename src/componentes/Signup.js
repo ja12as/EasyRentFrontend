@@ -3,7 +3,6 @@ import '../styles/Signup.css';
 export const Signup = () => {
   return (
     <>
-
       <body className="d-flex align-items-center py-4 ">
 
         {/* contenedor entre el body y el formulario */}
