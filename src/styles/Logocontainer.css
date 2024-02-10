@@ -1,0 +1,27 @@
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    
+    max-width: 1200px; /* Máximo ancho de la aplicación */
+    
+  }
+  
+  .logo {
+    width: 40px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+    height: 40px; /* Para mantener la proporción */
+    border-left: 100px;
+    margin-top: 40px;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .logo-container {
+      padding: 0 10px; /* Reduce el espacio alrededor del contenido en pantallas más pequeñas */
+    }
+  
+    .logo {
+      padding: 10px;
+    }
+  }
+  
