@@ -15,9 +15,12 @@ export const Navbar = () => {
           </div>
 
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><Link to="/" className="nav-link px-2 link-secondary">Inicio</Link></li>
-            <li><Link to="/properties" className="nav-link px-2">Promover Propiedades</Link></li>
-            <li><Link to="/offers" className="nav-link px-2">Ofertas</Link></li>
+            <li><button type="button" className="btn btn-primary me-2"><Link to="/">Inicio</Link></button></li>
+            {/* <li><Link to="/" className="nav-link px-2 link-secondary">Inicio</Link></li> */}
+            <li><button type="button" className="btn btn-primary me-2"><Link to="/properties">Promover Propiedades</Link></button></li>
+            <li><button type="button" className="btn btn-primary me-2"><Link to="/offers">Ofertas</Link></button></li>
+            {/* <li><Link to="/properties" className="nav-link px-2">Promover Propiedades</Link></li>
+            <li><Link to="/offers" className="nav-link px-2">Ofertas</Link></li> */}
           </ul>
 
           <div className="col-md-3 text-end">
